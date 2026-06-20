@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #020617;
+}
+
+.header a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #1e293b, #0f172a);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Games */
+.games {
+    padding: 40px;
+    text-align: center;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card a {
+    display: block;
+    margin-top: 10px;
+    background: gold;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Bonus */
+.bonus {
+    text-align: center;
+    padding: 50px;
+    background: #020617;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
